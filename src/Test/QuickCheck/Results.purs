@@ -11,8 +11,7 @@ import Test.QuickCheck           (Testable, Result(..), test)
 import Test.QuickCheck.Arbitrary (Arbitrary, arbitrary)
 import Test.QuickCheck.Gen       (Gen(), arrayOf, oneOf)
 
--- Could probably be replaced with Either, but this allows pattern matching
--- and declaring instances more easily
+-- | The type of results with multiple passes or failures.
 data Results fail pass = Fails (Set fail) | Passes (Set pass)
 
 instance showResults :: (Show fail, Show pass) => Show (Results fail pass) where

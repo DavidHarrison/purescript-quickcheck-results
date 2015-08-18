@@ -8,6 +8,8 @@ data Results fail pass
   | Passes (Set pass)
 ```
 
+The type of results with multiple passes or failures.
+
 ##### Instances
 ``` purescript
 instance showResults :: (Show fail, Show pass) => Show (Results fail pass)
