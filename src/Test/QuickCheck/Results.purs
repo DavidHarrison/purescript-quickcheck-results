@@ -1,4 +1,4 @@
-module Test.QuickCheck.Results where
+module Test.QuickCheck.Results (Results(..)) where
 
 import Prelude
 
