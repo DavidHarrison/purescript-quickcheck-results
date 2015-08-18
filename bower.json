@@ -1,0 +1,32 @@
+{
+  "name": "purescript-quickcheck-results",
+  "version": "1.0.0",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-console": "^0.1.0",
+    "purescript-sets": "~0.5.0",
+    "purescript-monoid": "~0.3.0",
+    "purescript-tuples": "~0.4.0",
+    "purescript-lists": "~0.7.1",
+    "purescript-quickcheck": "~0.10.1"
+  },
+  "devDependencies": {
+    "purescript-spec": "~0.7.1",
+    "purescript-spec-quickcheck": "DavidHarrison/purescript-spec-quickcheck#0cadf4ea6b02ab16945df1e0339c2be1f9242834",
+    "purescript-proxy": "~0.1.0",
+    "purescript-quickcheck-laws": "DavidHarrison/purescript-quickcheck-laws#3c23700493411db7ce5535921ff888a406b2909e"
+  },
+  "resolutions": {
+    "purescript-quickcheck": "~0.10.1",
+    "purescript-strings": "^0.7.0",
+    "purescript-quickcheck-laws": "79e22371187617a7d5522991c4a08721b573fa7f"
+  }
+}
